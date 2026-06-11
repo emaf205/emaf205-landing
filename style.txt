@@ -1,0 +1,25 @@
+# ==================================================
+# EMAF205 Landing — style.txt
+# ==================================================
+# Optional style settings.
+# Leave empty values to use defaults.
+#
+# FONT options:
+# serif
+# sans
+#
+# Colors:
+# Use HEX colors like #ffffff or #111111.
+# BUTTON_BACKGROUND can also be transparent.
+# ==================================================
+
+BACKGROUND_COLOR: #ffffff
+TEXT_COLOR: #111111
+MUTED_TEXT_COLOR: #666666
+FONT: serif
+
+BUTTON_BACKGROUND: transparent
+BUTTON_TEXT_COLOR: #111111
+BUTTON_BORDER_COLOR: #111111
+
+LINE_COLOR: #111111

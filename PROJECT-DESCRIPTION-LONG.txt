@@ -1,0 +1,52 @@
+EMAF205 Landing — Project Description
+=====================================
+
+EMAF205 Landing is a minimal FTP-first landing page system created by EmaF205, a generative AI professor based in Milan.
+
+The project is designed for independent creators, teachers, workshop organizers, consultants and small project owners who need to publish a clear landing page without installing a CMS, configuring a database or using a build process.
+
+The runtime is intentionally small:
+
+- index.php
+- page.txt
+- style.txt
+- optional custom.css
+
+The user edits page.txt to change the content of the landing page. The user edits style.txt to change basic visual settings such as colors and font family. Advanced users can add custom.css for manual CSS overrides.
+
+The landing structure follows a simple conversion logic:
+
+1. Hero
+2. Points
+3. How it works
+4. Details
+5. Final call to action
+6. Footer
+
+The structure is fixed to preserve clarity, but optional sections disappear automatically when left empty. This avoids the complexity of a visual builder while still giving the user enough control to create different kinds of landing pages.
+
+The tool is suitable for:
+
+- workshops
+- courses
+- small launches
+- digital products
+- services
+- event pages
+- download pages
+- independent experiments
+
+Design principles:
+
+- minimal layout
+- centered hero
+- clear call to action
+- square buttons
+- uppercase button text
+- no mandatory images
+- no icons
+- no database
+- no admin area
+- no external dependencies
+
+The project belongs to the EMAF205 family of small, portable web tools that can be uploaded directly to a server by FTP.

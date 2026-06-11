@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Milan AI Workshop</title>
+<meta name="description" content="A practical one-day workshop for creators, teachers and independent professionals.">
+<style>
+:root{
+  --bg:#050505;
+  --fg:#f4f4f4;
+  --muted:#999999;
+  --line:#333333;
+  --button-bg:transparent;
+  --button-text:#f4f4f4;
+  --button-border:#f4f4f4;
+}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font-family:Georgia, &#039;Times New Roman&#039;, serif;
+  font-weight:400;
+  padding:28px 16px;
+}
+.page{width:min(100%,820px);margin:0 auto}
+.hero{
+  min-height:72vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:34px 0 54px;
+}
+.eyebrow{
+  margin:0 0 20px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.35;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+h1{
+  margin:0;
+  max-width:760px;
+  font-size:clamp(48px,10vw,98px);
+  line-height:.9;
+  letter-spacing:-.065em;
+  font-weight:400;
+}
+.hero-text{
+  max-width:620px;
+  margin:26px auto 0;
+  color:var(--muted);
+  font-size:21px;
+  line-height:1.36;
+}
+.button{
+  width:min(100%,340px);
+  min-height:58px;
+  margin:34px auto 0;
+  padding:14px 18px;
+  border:1px solid var(--button-border);
+  border-radius:0;
+  background:var(--button-bg);
+  color:var(--button-text);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:13px;
+  line-height:1.15;
+  font-weight:400;
+}
+.button:hover{background:var(--fg);color:var(--bg)}
+.points{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  padding:0 0 54px;
+}
+.point-item{
+  border:1px solid var(--line);
+  padding:22px;
+  min-height:190px;
+}
+h3{
+  margin:0;
+  font-size:25px;
+  line-height:1.08;
+  letter-spacing:-.025em;
+  font-weight:400;
+}
+.point-item p,.step-item p,.detail-item p{
+  margin:12px 0 0;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.45;
+}
+.steps{border-top:1px solid var(--line)}
+.step-item{
+  display:grid;
+  grid-template-columns:1fr 1.4fr;
+  gap:28px;
+  padding:26px 0;
+  border-bottom:1px solid var(--line);
+}
+.details{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  padding:54px 0;
+  border-bottom:1px solid var(--line);
+}
+.final{
+  padding:58px 0 24px;
+  text-align:center;
+}
+.final h2{
+  margin:0;
+  font-size:clamp(38px,8vw,72px);
+  line-height:.92;
+  letter-spacing:-.055em;
+  font-weight:400;
+}
+.final p{
+  max-width:560px;
+  margin:20px auto 0;
+  color:var(--muted);
+  font-size:18px;
+  line-height:1.4;
+}
+footer{
+  margin-top:42px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.4;
+  text-align:center;
+}
+@media(max-width:720px){
+  body{padding:24px 16px}
+  .hero{min-height:auto;padding:46px 0 44px}
+  h1{font-size:clamp(44px,15vw,72px)}
+  .hero-text{font-size:18px}
+  .button{width:100%;min-height:56px}
+  .points{grid-template-columns:1fr;gap:10px;padding-bottom:42px}
+  .point-item{min-height:auto;padding:20px}
+  .step-item{grid-template-columns:1fr;gap:8px;padding:23px 0}
+  .details{grid-template-columns:1fr;gap:22px;padding:42px 0}
+  .final{padding:44px 0 18px}
+}
+</style>
+<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+<main class="page">
+  <header class="hero">
+          <p class="eyebrow">Milan · One day · Small group</p>
+        <h1>Build your first AI workflow in one day.</h1>
+          <p class="hero-text">A practical workshop for people who want to use generative AI without getting lost in tools, hype or theory.</p>
+        <a class="button" href="mailto:emagumroad@gmail.com?subject=Milan AI Workshop" target="_self">Reserve a seat</a>  </header>
+
+  <section class="points" aria-label="Key points"><article class="point-item"><h3>Start from one real problem</h3><p>Bring your work, project or creative process.</p></article><article class="point-item"><h3>Build a working workflow</h3><p>Turn prompts, tools and files into a repeatable method.</p></article><article class="point-item"><h3>Leave with a reusable system</h3><p>Take home something you can adapt after the workshop.</p></article></section>
+  <section class="steps" aria-label="How it works"><article class="step-item"><h3>Bring an idea</h3><p>Start with a task, problem or project you actually need.</p></article><article class="step-item"><h3>Build during the session</h3><p>Create your workflow with direct guidance and practical feedback.</p></article><article class="step-item"><h3>Reuse it later</h3><p>Leave with a method you can continue using independently.</p></article></section>
+  <section class="details" aria-label="Details"><article class="detail-item"><h3>Format</h3><p>One-day workshop in Milan.</p></article><article class="detail-item"><h3>Group</h3><p>Small group, practical work, direct feedback.</p></article><article class="detail-item"><h3>Contact</h3><p>Email to ask for dates, private sessions or custom workshops.</p></article></section>
+      <section class="final">
+              <h2>Ready to build something useful?</h2>
+                    <p>Send a short email to reserve a seat or ask for a private session.</p>
+            <a class="button" href="mailto:emagumroad@gmail.com" target="_self">Contact</a>    </section>
+  
+      <footer>A project by EmaF205 · Made with ♥ in Milan</footer>
+  </main>
+</body>
+</html>

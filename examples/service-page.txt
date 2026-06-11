@@ -1,0 +1,50 @@
+SITE_TITLE: Independent AI Consulting
+SITE_DESCRIPTION: Practical AI systems for independent professionals and small teams.
+
+EYEBROW: Consulting · Systems · Practical AI
+HERO_TITLE: Turn AI experiments into working systems.
+HERO_TEXT: A focused consulting service for people who need useful workflows, not another tool list.
+
+CTA_TEXT: Request a session
+CTA_URL: mailto:emagumroad@gmail.com?subject=AI Consulting
+CTA_TARGET: _self
+
+POINT: clarity
+TITLE: Clarify the problem
+TEXT: Start from real work, files, goals and constraints.
+
+POINT: system
+TITLE: Build the system
+TEXT: Connect prompts, documents and repeatable steps.
+
+POINT: independence
+TITLE: Stay independent
+TEXT: Leave with a method you can keep using without lock-in.
+
+STEP: map
+TITLE: Map the workflow
+TEXT: Identify the tasks where generative AI can help.
+
+STEP: prototype
+TITLE: Prototype quickly
+TEXT: Build a small working version before adding complexity.
+
+STEP: document
+TITLE: Document the method
+TEXT: Keep the workflow readable and reusable.
+
+DETAIL: format
+TITLE: Format
+TEXT: Remote or Milan-based sessions.
+
+DETAIL: scope
+TITLE: Scope
+TEXT: Workshops, audits, workflow design and practical training.
+
+FINAL_TITLE: Build a practical AI workflow.
+FINAL_TEXT: Send a message with your goal and current problem.
+FINAL_CTA_TEXT: Contact
+FINAL_CTA_URL: mailto:emagumroad@gmail.com
+FINAL_CTA_TARGET: _self
+
+FOOTER_TEXT: A project by EmaF205 · Made with ♥ in Milan

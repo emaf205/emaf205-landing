@@ -1,0 +1,54 @@
+SITE_TITLE: Milan AI Workshop
+SITE_DESCRIPTION: A practical one-day workshop for creators, teachers and independent professionals.
+
+EYEBROW: Milan · One day · Small group
+HERO_TITLE: Build your first AI workflow in one day.
+HERO_TEXT: A practical workshop for people who want to use generative AI without getting lost in tools, hype or theory.
+
+CTA_TEXT: Reserve a seat
+CTA_URL: mailto:emagumroad@gmail.com?subject=Milan AI Workshop
+CTA_TARGET: _self
+
+POINT: real-problem
+TITLE: Start from one real problem
+TEXT: Bring your work, project or creative process.
+
+POINT: workflow
+TITLE: Build a working workflow
+TEXT: Turn prompts, tools and files into a repeatable method.
+
+POINT: reusable-system
+TITLE: Leave with a reusable system
+TEXT: Take home something you can adapt after the workshop.
+
+STEP: bring
+TITLE: Bring an idea
+TEXT: Start with a task, problem or project you actually need.
+
+STEP: build
+TITLE: Build during the session
+TEXT: Create your workflow with direct guidance and practical feedback.
+
+STEP: reuse
+TITLE: Reuse it later
+TEXT: Leave with a method you can continue using independently.
+
+DETAIL: format
+TITLE: Format
+TEXT: One-day workshop in Milan.
+
+DETAIL: group
+TITLE: Group
+TEXT: Small group, practical work, direct feedback.
+
+DETAIL: contact
+TITLE: Contact
+TEXT: Email to ask for dates, private sessions or custom workshops.
+
+FINAL_TITLE: Ready to build something useful?
+FINAL_TEXT: Send a short email to reserve a seat or ask for a private session.
+FINAL_CTA_TEXT: Contact
+FINAL_CTA_URL: mailto:emagumroad@gmail.com
+FINAL_CTA_TARGET: _self
+
+FOOTER_TEXT: A project by EmaF205 · Made with ♥ in Milan

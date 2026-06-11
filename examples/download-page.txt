@@ -1,0 +1,38 @@
+SITE_TITLE: Minimal Download Page
+SITE_DESCRIPTION: A small landing page for a downloadable project.
+
+EYEBROW: Project · Download · FTP-first
+HERO_TITLE: Publish a clean project download page.
+HERO_TEXT: A simple landing for independent tools, files and small releases.
+
+CTA_TEXT: Download
+CTA_URL: ./project.zip
+CTA_TARGET: _self
+
+POINT: simple
+TITLE: One clear page
+TEXT: Explain the project without a complex website.
+
+POINT: download
+TITLE: Direct download
+TEXT: Link to a ZIP file in the same folder.
+
+POINT: portable
+TITLE: Upload anywhere
+TEXT: Works on a basic PHP server.
+
+DETAIL: files
+TITLE: Files
+TEXT: index.php, page.txt, style.txt and optional custom.css.
+
+DETAIL: use
+TITLE: Use
+TEXT: Small tools, release pages, prototypes and independent archives.
+
+FINAL_TITLE: Ready to publish?
+FINAL_TEXT: Replace the text, upload the files and share the link.
+FINAL_CTA_TEXT: Download
+FINAL_CTA_URL: ./project.zip
+FINAL_CTA_TARGET: _self
+
+FOOTER_TEXT: A project by EmaF205 · Made with ♥ in Milan
