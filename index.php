@@ -19,6 +19,12 @@ Runtime files:
 
 const EMAF_MAX_FILE_SIZE = 1048576;
 
+if (!function_exists('str_starts_with')) {
+    function str_starts_with(string $haystack, string $needle): bool {
+        return $needle === '' || strncmp($haystack, $needle, strlen($needle)) === 0;
+    }
+}
+
 function emaf_read_file(string $path): string {
     if (!is_file($path) || !is_readable($path)) {
         return '';
